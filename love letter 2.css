@@ -271,17 +271,7 @@ body {
     align-items: center;
   }
 
-  .envlope-wrapper {
-    height: auto;
-    margin-top: 60px;
-  }
-
-  #envelope {
-    width: 240px;
-    height: 155px;
-    top: 0;
-    margin: 0 auto;
-  }
+  
 
   /* flap & pocket resize */
   .flap {
@@ -316,9 +306,6 @@ body {
     padding: 8px;
     font-size: 12px;
   }
-  @media (max-width: 600px) {
-
-  /* parent ko center banaya */
   .envlope-wrapper {
     display: flex;
     justify-content: center;
@@ -333,7 +320,5 @@ body {
     width: 240px;
     height: 155px;
   }
-
-}
 
 }
