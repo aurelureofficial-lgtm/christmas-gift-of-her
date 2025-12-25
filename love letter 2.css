@@ -264,3 +264,56 @@ body {
   background-color: #d9534f;
   color: #fff;
 }
+@media (max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .envlope-wrapper {
+    height: auto;
+    margin-top: 60px;
+  }
+
+  #envelope {
+    width: 240px;
+    height: 155px;
+    top: 0;
+    margin: 0 auto;
+  }
+
+  /* flap & pocket resize */
+  .flap {
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-top: 85px solid #d9534f;
+  }
+
+  .pocket {
+    border-left: 120px solid #f5a3a2;
+    border-right: 120px solid #f5a3a2;
+    border-bottom: 80px solid #ff6f61;
+  }
+
+  /* letter text responsive */
+  .words.line2,
+  .words.line3,
+  .words.line4 {
+    font-size: 0.95rem;
+  }
+
+  .words.line1 {
+    font-size: 0.6rem;
+  }
+
+  .reset {
+    margin-top: 30px;
+  }
+
+  .reset button {
+    min-width: 100px;
+    padding: 8px;
+    font-size: 12px;
+  }
+}
