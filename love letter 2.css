@@ -316,4 +316,24 @@ body {
     padding: 8px;
     font-size: 12px;
   }
+  @media (max-width: 600px) {
+
+  /* parent ko center banaya */
+  .envlope-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  /* envelope ka manual top hata diya */
+  #envelope {
+    top: auto;
+    transform: none;
+    width: 240px;
+    height: 155px;
+  }
+
+}
+
 }
